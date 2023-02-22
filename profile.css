@@ -1,0 +1,197 @@
+@charset "utf-8";
+/* CSS Document*/
+body{
+    background-color:#ffffff;
+    margin:0px;
+    padding:0px;
+}
+ 
+ul{
+    list-style:none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    height:60px;
+    background-color:#FFFFFF;
+    box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+    padding:0px 5%;
+}
+a{
+    text-decoration:none;
+}
+ 
+section{
+    width:100%;
+    height:95vh;
+    position: relative;
+}
+ 
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    height:60px;
+    background-color:#FFFFFF;
+    box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+    padding:0px 5%;
+     
+}
+nav ul{
+    display: flex;
+}
+  
+nav ul li a{
+    margin:30px;
+    font-family:myriad pro regular;
+    color:#505050;
+    font-size: 15px;
+    font-weight:700;
+}
+ 
+
+.logo{
+    position: relative;
+    max-width: 40px;
+    border-image: url(logo.png) 30 round;
+}
+ 
+.active{
+    color:#2d2a2a;
+    font-weight:bold;
+}
+
+body {
+    background: #BA68C8;
+  }
+  
+  .form-control:focus {
+    box-shadow: none;
+    border-color: #BA68C8;
+  }
+  
+  .profile-button {
+    background: #BA68C8;
+    box-shadow: none;
+    border: none;
+  }
+  
+  .profile-button:hover {
+    background: #682773;
+  }
+  
+  .profile-button:focus {
+    background: #682773;
+    box-shadow: none;
+  }
+  
+  .profile-button:active {
+    background: #682773;
+    box-shadow: none;
+  }
+  
+  .back:hover {
+    color: #682773;
+    cursor: pointer;
+  }
+ 
+footer p{
+    font-family: calibri;
+}
+ 
+footer p:nth-child(1){
+    font-size: 30px;
+    font-weight:bold;
+    color:#FFFFFF;
+    line-height:5px;
+}
+ 
+footer p:nth-child(2){
+    font-size: 16px;
+    color:#7e7d7d;
+    width:100px;
+    text-align: center;
+}
+ 
+footer{
+    height:100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #191919;
+}
+ 
+.social-icons a{
+    width:40px;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#e6e3e3;
+    margin:20px 10px;
+    border-radius:50%;
+}
+ 
+.social-icons{
+    display: flex;
+     
+}
+ 
+.social-icons i,.social i{
+    color:#000000;
+}
+ 
+.social-icons a:hover{
+    background-color:#000000;
+    box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+    transition:all ease 0.5s;
+}
+ 
+.social-icons a:hover i,
+.social a:hover i{
+    color:#FFFFFF;
+    transition:all ease 0.5s;
+}
+  
+.copyright{
+    color:#565555;
+    font-size: 15px;
+    position: absolute;
+    left:50%;
+    bottom:10px;
+    transform: translateX(-50%);
+}
+.social{
+    position: fixed;
+    top:50%;
+    right:0px;
+    transform:translateY(-50%);
+}
+ 
+.social a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:50px;
+    height:50px;
+    margin:0px;
+    padding: 0px;
+    line-height:0px;
+    background-color:#FFFFFF;
+    border:1px solid #CBCBCB;
+    box-shadow:2px 2px 12px rgba(0,0,0,0.2);
+}
+ 
+.social a:hover{
+    background-color:#000000;
+    transition:all ease 0.5s;
+}
+ 
+.social i{
+    font-size:20px;
+    color:#2B2B2B;
+}
